@@ -1,0 +1,40 @@
+{
+    "FASTGenomicsApplication": {
+        "Name": "Hello Genomics Sample App",
+        "Type": "Calculation",
+        "Class": "Data Quality",
+        "Author": {
+            "Name": "Jon Doe",
+            "Email": "john.doe@fastgenomics.org",
+            "Organisation": "FASTGenomics"
+        },
+        "Description": "This apps helps you to understand FASTGenomics. This description can be markdown",
+        "License": "MIT",
+        "Parameters": {
+                "delimiter": {
+                    "Type": "string",
+                    "Description": "Delimiter of the input-file",
+                    "Default": "\t"
+                }
+        },
+        "Demands": ["CPU"],
+        "Input": {
+                "genes_data_input": {
+                    "Type": "GenesMatrix",
+                    "Usage": "Genes Matrix with entrez IDs"
+                }
+        },
+        "Output": {
+                "batch_corr_matrix": {
+                    "Type": "GenesMatrix",
+                    "Usage": "Batch-corrected gene expression matrix.",
+                    "FileName": "expression_corr.csv"
+                },
+                "batch_corr_img": {
+                    "Type": "ImageFile",
+                    "Usage": "Image of PCA of data for visual inspection of batch correction outcome.",
+                    "FileName": "batch_correction.png"
+                }
+        }
+    }
+}

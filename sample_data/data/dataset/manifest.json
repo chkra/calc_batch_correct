@@ -1,0 +1,34 @@
+{
+    "schema_version": 2.1,
+    "metadata": {
+        "technology": "Drop-seq",
+        "contact": "contact@fastgenomics.org",
+        "title": "test dataset",
+        "version": 1,
+        "preprocessing": {
+            "notes_html": "<p>test dataset</p>\n",
+            "tools": [
+                "test dataset"
+            ],
+            "notes": "test dataset"
+        },
+        "creation_info": "build 'FG_Data_Build_3.0.17135.09'",
+        "description": "test",
+        "description_html": "<p>test</p>\n",
+        "short_description": "test short description",
+        "short_description_html": "<p>test short description</p>\n"
+    },
+    "data": {
+        "gene_metadata": {
+            "file": "gene_metadata.tsv"
+        },
+        "expression_data": {
+            "file": "expression_data.tsv"
+        },
+        "cell_metadata": {
+            "file": "cell_metadata.tsv",
+            "batch_column": "sample",
+            "organism": 10090
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "number_of_considered_unexpressed_genes": 0,
+    "number_of_considered_expressed_genes": 300,
+    "gene_count_text": "After quality control, we use 300 genes for the analysis, of which 0 genes are not being expressed in the given cells. Furthermore, 0 genes have been excluded by the contributor.",
+    "gene_count_text_html": "<p>After quality control, we use 300 genes for the analysis, of which 0 genes are not being expressed in the given cells. Furthermore, 0 genes have been excluded by the contributor.</p>",
+    "number_of_unconsidered_unexpressed_genes": 0,
+    "number_of_genes": 300,
+    "number_of_unconsidered_expressed_genes": 0,
+    "number_of_cells": 300,
+    "number_of_expressed_genes": 300,
+    "number_of_unconsidered_genes": 0,
+    "number_of_unexpressed_genes": 0,
+    "number_of_considered_genes": 300
+}

@@ -1,0 +1,7 @@
+{
+	"cells_meta_input": "dataset/cells.tsv",
+	"genes_data_input": "dataset/genes.tsv",
+	"expression_input": "dataset/expressions_entrez.tsv",
+	"test_cells_meta_input": "dataset/bladder-pheno.txt",
+	"test_genes_data_input": "dataset/bladder-expr.txt"
+}

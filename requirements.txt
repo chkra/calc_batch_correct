@@ -1,0 +1,8 @@
+Jinja2==2.9.6
+pandas==0.19.2
+numpy
+matplotlib
+scikit-learn
+matplotlib
+scipy
+patsy

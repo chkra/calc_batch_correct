@@ -1,0 +1,13 @@
+version: '3'
+# this file can be used to showcase the environment an app would see.
+# This file is for local development purposes only. FASTGenomics does not need to see this file.
+services:
+  hello_genomics_calc_py36:
+    build:
+      context: .
+    image: hello_genomics_calc_py36:dev
+    volumes:
+      - ./sample_data/config:/fastgenomics/config/:ro
+      - ./sample_data/data:/fastgenomics/data/:ro
+      - ./sample_data/output:/fastgenomics/output/
+      - ./sample_data/summary:/fastgenomics/summary/
