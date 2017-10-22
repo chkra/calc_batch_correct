@@ -1,14 +1,14 @@
 {
     "FASTGenomicsApplication": {
-        "Name": "Hello Genomics Sample App",
+        "Name": "ComBat-style Batch Correction",
         "Type": "Calculation",
         "Class": "Data Quality",
         "Author": {
-            "Name": "Jon Doe",
-            "Email": "john.doe@fastgenomics.org",
+            "Name": "Christina Kratsch",
+            "Email": "christina.kratsch@comma-soft.com",
             "Organisation": "FASTGenomics"
         },
-        "Description": "This apps helps you to understand FASTGenomics. This description can be markdown",
+        "Description": "ComBat is a prominent R package for removing batch effects from sequencing data. This FASTGenomics app uses the faster python implementation of the SVA code provided by Brent Pedersen to recreate ComBat-style batch correction.",
         "License": "MIT",
         "Parameters": {
                 "delimiter": {
